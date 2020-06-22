@@ -5,10 +5,12 @@ buildscript {
     repositories {
         google()
         jcenter()
+        maven { url "https://jitpack.io" }
     }
 
     dependencies {
         classpath 'com.android.tools.build:gradle:3.6.1'
+        implementation 'com.github.nickgoh:AutoStarter:master-SNAPSHOT'
     }
 }
 
