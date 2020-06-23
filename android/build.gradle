@@ -10,7 +10,6 @@ buildscript {
 
     dependencies {
         classpath 'com.android.tools.build:gradle:3.6.1'
-        implementation 'com.github.nickgoh:AutoStarter:master-SNAPSHOT'
     }
 }
 
@@ -38,5 +37,5 @@ android {
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
 
-    implementation 'com.github.judemanutd:autostarter:1.0.8'
+    implementation 'com.github.nickgoh:AutoStarter:master-SNAPSHOT'
 }
